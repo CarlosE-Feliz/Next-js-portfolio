@@ -9,16 +9,18 @@ function NavBar() {
             <ul className="flex">
               <li>
                 <Link href="/">
-                  <a>Home</a>
+                  Home
                 </Link>
               </li>
               <li>
                 <Link href="/projects">
-                  <a>projects</a>
+                  projects
                 </Link>
               </li>
               <li>
-                <a href="#">About</a>
+              <Link href="/projects">
+                  About
+                </Link>
               </li>
             </ul>
           </nav>
